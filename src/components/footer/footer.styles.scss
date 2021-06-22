@@ -5,7 +5,7 @@ $desktop: 1024px;
 .footer-main {
     background-image: url("../../assets/footer.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,7 +100,7 @@ $desktop: 1024px;
 
 @media screen and (min-width: $tablet) {
     .footer-top {
-        width: 85vw;
+        width: 704px;
         background: #FDFCFF;
         box-shadow: 0px 32px 72px rgba(14, 12, 52, 0.1);
         border-radius: 24px;
@@ -152,6 +152,79 @@ $desktop: 1024px;
         padding: 80px;
         width: 90vw;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        img {
+            
+        }
+
+        p {
+         margin: 0;   
+         font-size: 14px;
+         line-height: 21px;
+         text-align: right;
+         color: #FAFAFF;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .footer-top {
+        width: 704px;
+        background: #FDFCFF;
+        box-shadow: 0px 32px 72px rgba(14, 12, 52, 0.1);
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h4 {
+            
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 28.8px;
+            color: rgba(14, 12, 52, 0.8);
+            text-align: center;
+            width: 576px;
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FAFAFF;
+        margin-top: 100px;
+       
+        h2 {
+            width: 593px;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 28.8px;
+            width: 593px;
+        }
+
+        .app-store-icons {
+            img {
+            margin-right: 30px;
+            margin-top: 20px;
+            }
+        }
+    }
+
+    .footer-logos {
+        padding: 80px;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
         
