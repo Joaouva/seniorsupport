@@ -1,0 +1,99 @@
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1024px;
+
+.funcionalidades-main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.funcionalidades-left {
+		background-image: url("../../assets/background-section.png");
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+	}
+
+	.funcionalidades-right {
+        hr {
+           border: 0.8px solid #E4E4F7
+        }
+	}
+}
+
+@media screen and (min-width: $mobile) {
+	.funcionalidades-main {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		padding: 40px;
+		.funcionalidades-left {
+			background-image: url("../../assets/background-section.png");
+            background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			width: 336px;
+			margin: 20px;
+
+            img {
+                width: 264px;
+            }
+		}
+
+		.funcionalidades-right {
+			width: 336px;
+			margin: 20px;
+		}
+	}
+}
+
+@media screen and (min-width: $tablet) {
+	.funcionalidades-main {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		padding: 50px;
+		.funcionalidades-left {
+			background-image: url("../../assets/background-section.png");
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			width: 518px;
+			margin: 50px;
+
+               img {
+                width: 410px;
+            }
+		}
+
+		.funcionalidades-right {
+			width: 608px;
+			margin: 50px;
+		}
+	}
+}
+
+@media screen and (min-width: $desktop) {
+	.funcionalidades-main {
+		display: flex;
+        flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+		.funcionalidades-left {
+			background-image: url("../../assets/background-section.png");
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			width: 518px;
+			margin: 10px;
+		}
+
+		.funcionalidades-right {
+			width: 488px;
+			padding: 5px;
+		}
+	}
+}
