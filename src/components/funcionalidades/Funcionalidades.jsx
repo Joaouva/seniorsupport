@@ -2,8 +2,7 @@ import React from "react";
 
 import "./funcionalidades.styles.scss"
 
-import background from "../../assets/background-section.png"
-import Iphone from "../../assets/iPhone.png"
+import Iphone from "../../assets/iPhone.svg"
 
 function Funcionalidades() {
     

@@ -4,7 +4,7 @@ $desktop: 1060px;
 
 //All Devices
 .main {
-	background-image: url("../../assets/Ellipse 4.png");
+	background-image: url("../../assets/background_header.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -48,6 +48,7 @@ $desktop: 1060px;
 				line-height: 39.2px;
 				margin-top: 40px;
 				margin-bottom: 0px;
+				margin-right: 0px;
 			}
 
 			p {
@@ -60,7 +61,7 @@ $desktop: 1060px;
 				align-items: center;
 
 				img {
-					padding: 10px;
+					padding: 2px;
 				}
 			}
 		}

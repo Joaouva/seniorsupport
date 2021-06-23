@@ -3,13 +3,18 @@ $tablet: 768px;
 $desktop: 1060px;
 
 body {
-	margin: 0;
+	max-width: 1920px;
+	margin: 0 auto;
 	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: $mobile) {
+	h1 {
+		margin:0px;
+	}
+
 	h2 {
 		text-align: center;
 		line-height: 33.6px;
@@ -40,6 +45,7 @@ body {
 	}
 
 	h6 {
+		text-align: left;
 		margin: 2px;
 		font-size: 18px;
 		line-height: 25.2px;
@@ -88,11 +94,12 @@ body {
 		}
 
 		h6 {
-		margin: 2px;
-		font-size: 18px;
-		line-height: 25.2px;
-		font-weight: 500;
-		color: #2D5DD3;
+			text-align: left;
+			margin: 2px;
+			font-size: 18px;
+			line-height: 25.2px;
+			font-weight: 500;
+			color: #2D5DD3;
 
 	}
 
@@ -136,6 +143,7 @@ body {
 	}
 
 	h6 {
+		text-align:left;
 		margin: 2px;
 		font-size: 18px;
 		line-height: 25.2px;

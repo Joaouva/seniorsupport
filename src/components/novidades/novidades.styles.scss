@@ -6,13 +6,13 @@ $desktop: 1060px;
 .novidades-main {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 	justify-content: center;
 	margin-top: 60px;
 
 	.novidades-left {
 		width: 488px;
-		padding: 0 50px;
+		padding-right: 0 50px;
+		margin-top: 60px;
 	}
 	.novidades-right {
 		display: flex;
@@ -42,13 +42,10 @@ $desktop: 1060px;
 
 @media screen and (max-width: $tablet) {
 	.novidades-main {
+		margin-top: 120px;
 		.novidades-left {
 			width: 304px;
 			padding: 0px;
-
-			h2 {
-				width: 300px;
-			}
 
 			p {
 				text-align: center;
@@ -76,10 +73,14 @@ $desktop: 1060px;
 	.novidades-main {
 		.novidades-left {
 			width: 488px;
-			padding: 0 10px;
+			padding-right: 100px;
 			text-align: center;
 
 			h2 {
+				text-align: center;
+			}
+
+			h6 {
 				text-align: center;
 			}
 		}
@@ -96,13 +97,3 @@ $desktop: 1060px;
 	}
 }
 
-@media screen and (min-width: $desktop) {
-	.novidades-left {
-		width: 488px;
-		padding: 0 50px;
-		h2 {
-			text-align: left;
-		}
-	}
-
-}

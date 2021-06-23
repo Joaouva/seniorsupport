@@ -3,6 +3,7 @@ $tablet: 768px;
 $desktop: 1060px;
 
 .funcionalidades-main {
+	width:100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -26,15 +27,16 @@ $desktop: 1060px;
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
-		padding: 40px;
+		padding: 0px;
 		.funcionalidades-left {
 			background-image: url("../../assets/background-section.png");
-            background-size: cover;
+            background-size: 320px;
 			background-repeat: no-repeat;
 			display: flex;
 			justify-content: center;
-			width: 336px;
-			margin: 20px;
+			width: 320px;
+			margin: 0px;
+			margin-top: 30px;
 
             img {
                 width: 264px;
@@ -42,8 +44,8 @@ $desktop: 1060px;
 		}
 
 		.funcionalidades-right {
-			width: 336px;
-			margin: 20px;
+			width: 300px;
+			margin: 0px;
 		}
 	}
 }
@@ -54,14 +56,18 @@ $desktop: 1060px;
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
-		padding: 50px;
 		.funcionalidades-left {
 			background-image: url("../../assets/background-section.png");
+			background-size: cover;
 			background-repeat: no-repeat;
 			display: flex;
 			justify-content: center;
 			width: 518px;
 			margin: 50px;
+
+			h6 {
+				text-align: center;
+			}
 
                img {
                 width: 410px;
@@ -70,7 +76,6 @@ $desktop: 1060px;
 
 		.funcionalidades-right {
 			width: 608px;
-			margin: 50px;
 		}
 	}
 }
@@ -85,6 +90,7 @@ $desktop: 1060px;
 		.funcionalidades-left {
 			background-image: url("../../assets/background-section.png");
 			background-repeat: no-repeat;
+			background-size: cover;
 			display: flex;
 			justify-content: center;
 			width: 518px;

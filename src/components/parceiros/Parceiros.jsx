@@ -2,11 +2,11 @@ import React from "react";
 
 import "./parceiros.styles.scss"
 
-import eit from "../../assets/Logos/eit.png";
-import UniversidadeAveiro from "../../assets/Logos/universidade de aveiro.png";
-import sedy from "../../assets/Logos/sedy.png";
-import bgi from "../../assets/Logos/bgi.png";
-import Pci from "../../assets/Logos/pci.png";
+import eit from "../../assets/Logos/eit.svg";
+import UniversidadeAveiro from "../../assets/Logos/universidade de aveiro.svg";
+import sedy from "../../assets/Logos/sedy.svg";
+import bgi from "../../assets/Logos/bgi.svg";
+import Pci from "../../assets/Logos/pci.svg";
 
 function Parceiros() {
     return (

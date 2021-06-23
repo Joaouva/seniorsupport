@@ -2,8 +2,8 @@ import React from "react";
 
 import "./header.styles.scss"
 
-import AppStore from "../../assets/app-store.png";
-import GooglePlay from "../../assets/google-play.png";
+import AppStore from "../../assets/app-store.svg";
+import GooglePlay from "../../assets/google-play.svg";
 import Device1 from "../../assets/device 1.png";
 import Device2 from "../../assets/device 2.png";
 import NavBar from "../navbar/NavBar";

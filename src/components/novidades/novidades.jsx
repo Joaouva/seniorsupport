@@ -2,11 +2,11 @@ import React from "react";
 
 import "./novidades.styles.scss"
 
-import learn from "../../assets/Icons/learn.png"
-import appointment from "../../assets/Icons/appointment.png";
-import organize from "../../assets/Icons/organize.png";
-import remember from "../../assets/Icons/remember.png";
-import buy from "../../assets/Icons/buy.png";
+import learn from "../../assets/Icons/learn.svg"
+import appointment from "../../assets/Icons/appointment.svg";
+import organize from "../../assets/Icons/organize.svg";
+import remember from "../../assets/Icons/remember.svg";
+import buy from "../../assets/Icons/buy.svg";
 
 
 function Novidades() {

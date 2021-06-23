@@ -2,9 +2,9 @@ import React from "react";
 
 import "./footer.styles.scss";
 
-import AppStore from "../../assets/app-store.png";
-import GooglePlay from "../../assets/google-play.png";
-import Logo from "../../assets/Logos/logo.png"
+import AppStore from "../../assets/app-store.svg";
+import GooglePlay from "../../assets/google-play.svg";
+import Logo from "../../assets/Logos/logo.svg"
 
 function Footer() {
     
