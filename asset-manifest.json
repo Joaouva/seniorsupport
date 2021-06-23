@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/seniorsupport/static/css/main.5d33d455.chunk.css",
-    "main.js": "/seniorsupport/static/js/main.a47349ad.chunk.js",
-    "main.js.map": "/seniorsupport/static/js/main.a47349ad.chunk.js.map",
+    "main.css": "/seniorsupport/static/css/main.e0589fa3.chunk.css",
+    "main.js": "/seniorsupport/static/js/main.2e7da07b.chunk.js",
+    "main.js.map": "/seniorsupport/static/js/main.2e7da07b.chunk.js.map",
     "runtime-main.js": "/seniorsupport/static/js/runtime-main.7a4a7147.js",
     "runtime-main.js.map": "/seniorsupport/static/js/runtime-main.7a4a7147.js.map",
     "static/css/2.04447ae7.chunk.css": "/seniorsupport/static/css/2.04447ae7.chunk.css",
@@ -12,21 +12,34 @@
     "static/js/3.81a0e549.chunk.js.map": "/seniorsupport/static/js/3.81a0e549.chunk.js.map",
     "index.html": "/seniorsupport/index.html",
     "static/css/2.04447ae7.chunk.css.map": "/seniorsupport/static/css/2.04447ae7.chunk.css.map",
-    "static/css/main.5d33d455.chunk.css.map": "/seniorsupport/static/css/main.5d33d455.chunk.css.map",
+    "static/css/main.e0589fa3.chunk.css.map": "/seniorsupport/static/css/main.e0589fa3.chunk.css.map",
     "static/js/2.a1001a8f.chunk.js.LICENSE.txt": "/seniorsupport/static/js/2.a1001a8f.chunk.js.LICENSE.txt",
-    "static/media/header.styles.scss": "/seniorsupport/static/media/Ellipse 4.bfda671f.png",
+    "static/media/app-store.1fac4b9e.svg": "/seniorsupport/static/media/app-store.1fac4b9e.svg",
+    "static/media/appointment.41bbc7ed.svg": "/seniorsupport/static/media/appointment.41bbc7ed.svg",
     "static/media/funcionalidades.styles.scss": "/seniorsupport/static/media/background-section.f2f03339.png",
+    "static/media/footer.styles.scss": "/seniorsupport/static/media/background_footer.24a6ec1a.svg",
+    "static/media/header.styles.scss": "/seniorsupport/static/media/background_header.7e0c3393.svg",
+    "static/media/bgi.ec4397d9.svg": "/seniorsupport/static/media/bgi.ec4397d9.svg",
+    "static/media/buy.87f5fa16.svg": "/seniorsupport/static/media/buy.87f5fa16.svg",
     "static/media/device 1.bcd775aa.png": "/seniorsupport/static/media/device 1.bcd775aa.png",
     "static/media/device 2.763c584e.png": "/seniorsupport/static/media/device 2.763c584e.png",
-    "static/media/footer.styles.scss": "/seniorsupport/static/media/footer.8310216b.png",
-    "static/media/iPhone.983ed5c1.png": "/seniorsupport/static/media/iPhone.983ed5c1.png",
-    "static/media/premium.12c722ac.png": "/seniorsupport/static/media/premium.12c722ac.png"
+    "static/media/eit.87a597cf.svg": "/seniorsupport/static/media/eit.87a597cf.svg",
+    "static/media/google-play.ae8473dd.svg": "/seniorsupport/static/media/google-play.ae8473dd.svg",
+    "static/media/iPhone.31773c18.svg": "/seniorsupport/static/media/iPhone.31773c18.svg",
+    "static/media/learn.21e1d6b3.svg": "/seniorsupport/static/media/learn.21e1d6b3.svg",
+    "static/media/logo.773d1a1f.svg": "/seniorsupport/static/media/logo.773d1a1f.svg",
+    "static/media/organize.7c4c5d0d.svg": "/seniorsupport/static/media/organize.7c4c5d0d.svg",
+    "static/media/pci.e51747eb.svg": "/seniorsupport/static/media/pci.e51747eb.svg",
+    "static/media/premium.7e9c9bf8.svg": "/seniorsupport/static/media/premium.7e9c9bf8.svg",
+    "static/media/remember.b672f183.svg": "/seniorsupport/static/media/remember.b672f183.svg",
+    "static/media/sedy.f5d6e106.svg": "/seniorsupport/static/media/sedy.f5d6e106.svg",
+    "static/media/universidade de aveiro.0b329401.svg": "/seniorsupport/static/media/universidade de aveiro.0b329401.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7a4a7147.js",
     "static/css/2.04447ae7.chunk.css",
     "static/js/2.a1001a8f.chunk.js",
-    "static/css/main.5d33d455.chunk.css",
-    "static/js/main.a47349ad.chunk.js"
+    "static/css/main.e0589fa3.chunk.css",
+    "static/js/main.2e7da07b.chunk.js"
   ]
 }
