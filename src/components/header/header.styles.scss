@@ -1,6 +1,6 @@
 $mobile: 320px;
 $tablet: 768px;
-$desktop: 1025px;
+$desktop: 1060px;
 
 //All Devices
 .main {
@@ -118,13 +118,11 @@ $desktop: 1025px;
 
 		.right-section {
 			.device2 {
-				margin-top: 200px;
-				margin-left: 50px;
-				margin-right: -70px;
+				margin-top: 250px;
+				margin-right: -85px;
 			}
 
 			.device1 {
-				margin-right: 20px;
 				margin-top: 80px;
 			}
 
@@ -170,9 +168,12 @@ $desktop: 1025px;
 		.right-section {
 			.device2 {
 				margin-top: 310px;
+				margin-left: 0px;
+				margin-right: -95px;;
 			}
 
 			.device1 {
+				margin-right: 0px;
 				margin-left: -20px;
 				margin-top: 115px;
 			}
