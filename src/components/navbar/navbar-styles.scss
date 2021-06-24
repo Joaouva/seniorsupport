@@ -1,0 +1,12 @@
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1060px;
+
+//All 
+
+
+@media screen and (max-width: $mobile) {}
+
+@media screen and (max-width: $tablet) {}
+
+@media screen and (max-width: $desktop) {}

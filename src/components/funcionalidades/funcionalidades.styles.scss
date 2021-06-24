@@ -4,6 +4,7 @@ $desktop: 1060px;
 
 .funcionalidades-main {
 	width:100%;
+	margin-top: 80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -24,6 +25,7 @@ $desktop: 1060px;
 @media screen and (min-width: $mobile) {
 	.funcionalidades-main {
 		display: flex;
+		margin-top: 100px;
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
@@ -82,6 +84,8 @@ $desktop: 1060px;
 
 @media screen and (min-width: $desktop) {
 	.funcionalidades-main {
+		gap: 150px;
+		margin-top: 40px;
 		display: flex;
         flex-direction: row;
 		align-items: center;

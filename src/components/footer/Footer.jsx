@@ -4,11 +4,10 @@ import "./footer.styles.scss";
 
 import AppStore from "../../assets/app-store.svg";
 import GooglePlay from "../../assets/google-play.svg";
-import Logo from "../../assets/Logos/logo.svg"
+import Logo from "../../assets/Logos/logo.svg";
 
 function Footer() {
-    
-    return (
+	return (
 		<div className="footer-main">
 			<div className="footer-top">
 				<h4>Reserve o seu agora mesmo!</h4>
@@ -17,6 +16,10 @@ function Footer() {
 					espera, assim que tivermos novidades entraremos em
 					contato com você por ele, vamos lá?
 				</p>
+				<form className="form">
+					<input type="email" placeholder="Your email address" className="form-input" />
+					<input type="submit" value="Ser premium" className="form-button"/>
+				</form>
 			</div>
 			<div className="footer-bottom">
 				<h2>
@@ -33,17 +36,17 @@ function Footer() {
 				</div>
 			</div>
 			<div className="footer-logos">
-				<div>
+				<div className="footer-logo">
 					<img src={Logo} alt="Senior Support Logo" />
 				</div>
 
-				<div>
+				<div className="footer-copyright">
 					<p>Copyright by Sennior Support</p>
 					<p>Todos os direitos reservados. 2021</p>
 				</div>
 			</div>
 		</div>
-    );
+	);
 }
 
 export default Footer;

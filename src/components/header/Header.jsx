@@ -6,15 +6,24 @@ import AppStore from "../../assets/app-store.svg";
 import GooglePlay from "../../assets/google-play.svg";
 import Device1 from "../../assets/device 1.png";
 import Device2 from "../../assets/device 2.png";
-import NavBar from "../navbar/NavBar";
+import SeniorSupport from "../../assets/Logos/logo.png";
+
 
 
 
 function Header() {
 
     return (
-		<div>
-			<NavBar />
+		<div className="header">
+			<div className="nav-main">
+				<div className="nav-left">
+					<img src={SeniorSupport} alt="Senior Support logo" />
+				</div>
+				<div className="nav-right">
+					<a href="/">Blog</a>
+					<a href="/">Equipa</a>
+				</div>
+			</div>
 			<div className="main">
 				<div className="left-section">
 					<h1>
