@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/seniorsupport/static/css/main.ec739d68.chunk.css",
-    "main.js": "/seniorsupport/static/js/main.bda321e0.chunk.js",
-    "main.js.map": "/seniorsupport/static/js/main.bda321e0.chunk.js.map",
+    "main.css": "/seniorsupport/static/css/main.59330952.chunk.css",
+    "main.js": "/seniorsupport/static/js/main.e8ff1eb2.chunk.js",
+    "main.js.map": "/seniorsupport/static/js/main.e8ff1eb2.chunk.js.map",
     "runtime-main.js": "/seniorsupport/static/js/runtime-main.7a4a7147.js",
     "runtime-main.js.map": "/seniorsupport/static/js/runtime-main.7a4a7147.js.map",
     "static/css/2.04447ae7.chunk.css": "/seniorsupport/static/css/2.04447ae7.chunk.css",
@@ -12,13 +12,13 @@
     "static/js/3.81a0e549.chunk.js.map": "/seniorsupport/static/js/3.81a0e549.chunk.js.map",
     "index.html": "/seniorsupport/index.html",
     "static/css/2.04447ae7.chunk.css.map": "/seniorsupport/static/css/2.04447ae7.chunk.css.map",
-    "static/css/main.ec739d68.chunk.css.map": "/seniorsupport/static/css/main.ec739d68.chunk.css.map",
+    "static/css/main.59330952.chunk.css.map": "/seniorsupport/static/css/main.59330952.chunk.css.map",
     "static/js/2.a1001a8f.chunk.js.LICENSE.txt": "/seniorsupport/static/js/2.a1001a8f.chunk.js.LICENSE.txt",
     "static/media/app-store.1fac4b9e.svg": "/seniorsupport/static/media/app-store.1fac4b9e.svg",
     "static/media/appointment.41bbc7ed.svg": "/seniorsupport/static/media/appointment.41bbc7ed.svg",
     "static/media/funcionalidades.styles.scss": "/seniorsupport/static/media/background-section.f2f03339.png",
-    "static/media/footer.styles.scss": "/seniorsupport/static/media/background_footer.24a6ec1a.svg",
     "static/media/header.styles.scss": "/seniorsupport/static/media/background_header.7e0c3393.svg",
+    "static/media/footer.styles.scss": "/seniorsupport/static/media/background_footer.9be6b5dc.svg",
     "static/media/bgi.ec4397d9.svg": "/seniorsupport/static/media/bgi.ec4397d9.svg",
     "static/media/buy.87f5fa16.svg": "/seniorsupport/static/media/buy.87f5fa16.svg",
     "static/media/device 1.bcd775aa.png": "/seniorsupport/static/media/device 1.bcd775aa.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.7a4a7147.js",
     "static/css/2.04447ae7.chunk.css",
     "static/js/2.a1001a8f.chunk.js",
-    "static/css/main.ec739d68.chunk.css",
-    "static/js/main.bda321e0.chunk.js"
+    "static/css/main.59330952.chunk.css",
+    "static/js/main.e8ff1eb2.chunk.js"
   ]
 }
