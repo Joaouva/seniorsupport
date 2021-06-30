@@ -1,6 +1,9 @@
 import React from "react"
 
+import "./navbar-styles.scss"
+
 import SeniorSupport from "../../assets/Logos/logo.png";
+
 
 function NavBar() {
     
@@ -13,6 +16,7 @@ function NavBar() {
 				<a href="/">Blog</a>
 				<a href="/">Equipa</a>
 			</div>
+			<hr></hr>
 		</div>
     );
 }

@@ -4,6 +4,14 @@ $desktop: 1060px;
 
 //All 
 
+.nav-main {
+
+    hr {
+           border: 0.8px solid #E4E4F7;
+           width: 100%;
+        }
+}
+
 
 @media screen and (max-width: $mobile) {}
 

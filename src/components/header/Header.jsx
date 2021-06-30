@@ -24,6 +24,7 @@ function Header() {
 					<a href="/">Equipa</a>
 				</div>
 			</div>
+			<hr></hr>
 			<div className="main">
 				<div className="left-section">
 					<h1>
