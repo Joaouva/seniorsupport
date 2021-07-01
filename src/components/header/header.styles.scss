@@ -16,6 +16,58 @@ $desktop: 1060px;
 		align-items: flex-start;
 		justify-content: space-between;
 
+		.color-nav {
+			background-color: rgba(0, 255, 0, 1);
+		}
+
+		.navbar-nav {
+			align-items: flex-start !important;
+			justify-content: space-between !important;
+		}
+
+		a {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20.8px;
+			text-align: center;
+			text-decoration: none;
+			padding: 20px;
+			color: rgba(250, 250, 255, 0.8) !important;
+		}
+
+		.dropdown-menu {
+			background-color: rgba(250, 250, 255, 0) !important;
+			min-width: 5rem !important;
+			border: 2px solid #FAFAFF !important;
+			border-radius: 8px !important;
+		}
+
+		.dropdown {
+
+			.dropdown-item {
+
+				img {
+					width: 19px !important;
+					height: 14px;
+				}
+
+				a {
+				.active {
+					background-color:rgba(38, 38, 39, 0.8) !important;
+					color: black !important;
+				}
+			}
+			}
+		}
+
+		.navbar-toggler {
+			border: none !important;
+		}
+
+		.navbar-toggler-icon {
+			background-image: url("../../assets/mobile/header/hamburguer.svg");
+		}
+
 		.nav-left {
 			justify-self: flex-start;
 			margin-left: 30px;
@@ -41,6 +93,7 @@ $desktop: 1060px;
 
 	.main {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-content: center;
 		margin: auto;
@@ -71,6 +124,10 @@ $desktop: 1060px;
 		background-repeat: no-repeat;
 		background-size: auto;
 		background-position: top center;
+
+		.nav-main {
+			align-items: center;
+		}
 	}
 
 	.main {
@@ -139,7 +196,7 @@ $desktop: 1060px;
 			width: 715px;
 			align-items: center;
 			justify-content: center;
-			gap: 440px;
+			gap: 350px;
 		}
 
 		.main {
@@ -175,7 +232,6 @@ $desktop: 1060px;
 			}
 
 			.right-section {
-
 				img {
 					width: 443.5px;
 					height: 635.48px;
@@ -195,15 +251,23 @@ $desktop: 1060px;
 		height: 852px;
 
 		.nav-main {
-			padding: 10px 60px 10px;
+			width: 100%;
+			max-width: 1216px;
+			padding: 5px;
 			gap: 0px;
 			justify-content: space-between;
+
+			.nav-left {
+				justify-self: flex-start;
+				margin-left: 0px;
+			}
 		}
 
 		.main {
+			width: 100%;
 			max-width: 1216px;
 			flex-direction: row;
-			gap: 30px;
+			justify-content: space-between;
 			align-items: flex-start;
 
 			.left-section {
@@ -234,7 +298,6 @@ $desktop: 1060px;
 			}
 
 			.right-section {
-
 				.mockup {
 					margin-top: 75px;
 				}
@@ -242,7 +305,6 @@ $desktop: 1060px;
 				img {
 					width: 443.5px;
 					height: 635.48px;
-					
 				}
 			}
 		}

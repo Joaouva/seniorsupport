@@ -1,13 +1,15 @@
 import React from "react";
+import { Navbar, Nav, NavDropdown} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./header.styles.scss"
 
 import AppStore from "../../assets/Logos/app-store.svg";
 import GooglePlay from "../../assets/Logos/google-play.svg";
-import Device1 from "../../assets/header/device 1.png";
-import Device2 from "../../assets/header/device 2.png";
 import Mockup from "../../assets/header/mockup-principal.png"
 import SeniorSupport from "../../assets/Logos/logo.svg";
+import Brasil from "../../assets/header/br.svg"
+import Portugal from "../../assets/header/pt.svg"
 
 
 
@@ -17,13 +19,47 @@ function Header() {
     return (
 		<div className="header">
 			<div className="nav-main">
-				<div className="nav-left">
-					<img src={SeniorSupport} alt="Senior Support logo" />
-				</div>
-				<div className="nav-right">
-					<a href="/">Blog</a>
-					<a href="/">Equipa</a>
-				</div>
+				<Navbar bg="color-nav" expand="md" className="nav-main">
+					<Navbar.Brand href="#home">
+						<img
+							src={SeniorSupport}
+							alt="Senior Support logo"
+						/>
+					</Navbar.Brand>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+					<Navbar.Collapse id="basic-navbar-nav">
+						<Nav className="ml-auto">
+							<Nav.Link href="#home">Blog</Nav.Link>
+							<Nav.Link href="#link">Equipa</Nav.Link>
+							<NavDropdown
+								title="Idioma"
+								id="basic-nav-dropdown"
+								className="dropdown"
+							>
+								<NavDropdown.Item
+									href="#action/3.1"
+									className="dropdown-item"
+								>
+									<img
+										src={Portugal}
+										alt="Bandeira Portugal"
+									></img>
+									PT
+								</NavDropdown.Item>
+								<NavDropdown.Item
+									href="#action/3.2"
+									className="dropdown-item"
+								>
+									<img
+										src={Brasil}
+										alt="Bandeira Brasil"
+									></img>
+									BR
+								</NavDropdown.Item>
+							</NavDropdown>
+						</Nav>
+					</Navbar.Collapse>
+				</Navbar>
 			</div>
 			<hr></hr>
 			<div className="main">

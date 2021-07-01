@@ -87,7 +87,7 @@ $desktop: 1060px;
 
 		.feedbacks-bottom {
             .swiper-container {
-                width: 688px !important;
+                max-width: 688px !important;
 				height: 300px !important;
                 
                 .swiper-slide {
