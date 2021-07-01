@@ -2,7 +2,7 @@ import React from "react";
 
 import "./funcionalidades.styles.scss"
 
-import Iphone from "../../assets/iPhone.svg"
+import Iphone from "../../assets/funcionalidades/iPhone 3.svg"
 
 function Funcionalidades() {
     

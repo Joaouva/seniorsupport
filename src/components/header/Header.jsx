@@ -2,11 +2,12 @@ import React from "react";
 
 import "./header.styles.scss"
 
-import AppStore from "../../assets/app-store.svg";
-import GooglePlay from "../../assets/google-play.svg";
-import Device1 from "../../assets/device 1.png";
-import Device2 from "../../assets/device 2.png";
-import SeniorSupport from "../../assets/Logos/logo.png";
+import AppStore from "../../assets/Logos/app-store.svg";
+import GooglePlay from "../../assets/Logos/google-play.svg";
+import Device1 from "../../assets/header/device 1.png";
+import Device2 from "../../assets/header/device 2.png";
+import Mockup from "../../assets/header/mockup-principal.png"
+import SeniorSupport from "../../assets/Logos/logo.svg";
 
 
 
@@ -28,8 +29,8 @@ function Header() {
 			<div className="main">
 				<div className="left-section">
 					<h1>
-						O melhor parceiro no cuidado da saúde ao toque das
-						mãos
+						Seu melhor parceiro no cuidado da saúde ao toque
+						das mãos
 					</h1>
 					<p>
 						Diminua a distância, organize o dia, aprenda as
@@ -46,13 +47,8 @@ function Header() {
 				</div>
 				<div className="right-section">
 					<img
-						className="device2"
-						src={Device2}
-						alt="Smartphone with the APP"
-					/>
-					<img
-						className="device1"
-						src={Device1}
+						className="mockup"
+						src={Mockup}
 						alt="Smartphone with the APP"
 					/>
 				</div>

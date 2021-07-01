@@ -7,9 +7,9 @@ import "swiper/components/pagination/pagination.min.css";
 
 import SwiperCore, { Pagination } from "swiper/core";
 
-import Feedback1 from "../../assets/feedback1.png";
-import Feedback2 from "../../assets/feedback2.png";
-import Feedback3 from "../../assets/feedback3.png";
+import Feedback1 from "../../assets/feedback/feedback1.png";
+import Feedback2 from "../../assets/feedback/feedback2.png";
+import Feedback3 from "../../assets/feedback/feedback3.png";
 
 SwiperCore.use([Pagination]);
 

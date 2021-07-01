@@ -2,7 +2,7 @@ import React from "react";
 
 import "./premium.styles.scss";
 
-import Mockup from "../../assets/premium.svg";
+import Mockup from "../../assets/premium/premium.svg";
 import CheckIcon from "../../assets/Icons/check-icon.png";
 
 function Premium() {

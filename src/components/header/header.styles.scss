@@ -43,7 +43,6 @@ $desktop: 1060px;
 		display: flex;
 		justify-content: center;
 		align-content: center;
-		max-width: 70%;
 		margin: auto;
 
 		.left-section {
@@ -68,10 +67,10 @@ $desktop: 1060px;
 
 @media screen and (min-width: $mobile) {
 	.header {
-		background-image: url("../../assets/mobile/background.svg");
+		background-image: url("../../assets/mobile/header/background.svg");
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
+		background-size: auto;
+		background-position: top center;
 	}
 
 	.main {
@@ -120,8 +119,9 @@ $desktop: 1060px;
 			}
 
 			img {
-				width: 182.19px;
-				height: 325.22px;
+				width: 306.56px;
+				height: 439.27px;
+				margin-top: 50px;
 			}
 		}
 	}
@@ -129,7 +129,7 @@ $desktop: 1060px;
 
 @media screen and (min-width: $tablet) {
 	.header {
-		background-image: url("../../assets/tablet/background.svg");
+		background-image: url("../../assets/tablet/header/background.svg");
 		background-repeat: no-repeat;
 		background-size: auto;
 		background-position: center top;
@@ -175,18 +175,11 @@ $desktop: 1060px;
 			}
 
 			.right-section {
-				.device2 {
-					margin-top: 250px;
-					margin-right: -85px;
-				}
-
-				.device1 {
-					margin-top: 80px;
-				}
 
 				img {
-					width: 265.09px;
-					height: 473.2px;
+					width: 443.5px;
+					height: 635.48px;
+					margin-top: 70px;
 				}
 			}
 		}
@@ -195,25 +188,23 @@ $desktop: 1060px;
 
 @media screen and (min-width: $desktop) {
 	.header {
-		background-image: url("../../assets/background_header.svg");
+		background-image: url("../../assets/header/background_header.svg");
 		background-repeat: no-repeat;
 		background-size: auto;
 		background-position: center;
 		height: 852px;
 
 		.nav-main {
-			width: 1216px;
 			padding: 10px 60px 10px;
 			gap: 0px;
 			justify-content: space-between;
 		}
 
 		.main {
-			width: 1216px;
+			max-width: 1216px;
 			flex-direction: row;
 			gap: 30px;
 			align-items: flex-start;
-			justify-content: space-between;
 
 			.left-section {
 				flex-direction: column;
@@ -243,21 +234,15 @@ $desktop: 1060px;
 			}
 
 			.right-section {
-				.device2 {
-					margin-top: 180px;
-					margin-left: 0px;
-					margin-right: -95px;
-				}
 
-				.device1 {
-					margin-right: 0px;
-					margin-left: -20px;
-					margin-top: 35px;
+				.mockup {
+					margin-top: 75px;
 				}
 
 				img {
-					width: 265.09px;
-					height: 473.2px;
+					width: 443.5px;
+					height: 635.48px;
+					
 				}
 			}
 		}

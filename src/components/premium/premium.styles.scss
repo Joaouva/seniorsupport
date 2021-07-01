@@ -2,138 +2,134 @@ $mobile: 320px;
 $tablet: 768px;
 $desktop: 1060px;
 
-
 @media screen and (min-width: $mobile) {
+	.premium-main {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		align-items: center;
+		justify-content: center;
+		margin-top: 70px;
 
-    .premium-main {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-top: 70px;
+		.premium-left {
+			img {
+				width: 320px;
+				margin-right: 0px;
+			}
+		}
 
+		.premium-right {
+			h2 {
+				text-align: left;
+				margin: 2px;
+				width: 310px;
+			}
 
-        .premium-left {
-            img {
-                width: 320px;
-                margin-right: 0px;
-            }
-        }
+			p {
+				width: 268px;
+			}
 
-        .premium-right{
-            h2 {
-                text-align: left;
-                margin: 2px;
-                width: 310px;
-            }
+			.premium-list-item {
+				display: flex;
+				align-items: center;
 
-            p {
-                width: 268px;
-            }
+				h5 {
+					margin: 15px;
+					font-size: 18px;
+					line-height: 28.8px;
+					font-weight: 500;
+				}
 
-            .premium-list-item{
-                display: flex;
-                align-items: center;
-
-                h5 {
-                    margin: 15px;
-                    font-size: 18px;
-                    line-height: 28.8px;
-                    font-weight: 500;
-                }
-
-                img {
-                    margin-right: 5px;
-                }
-            }
-        }
-    }
-
+				img {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (min-width: $tablet) {
+	.premium-main {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		align-items: center;
+		justify-content: center;
+		margin-top: 120px;
 
-    .premium-main {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-top: 120px;
+		.premium-left {
+			img {
+				width: 100%;
+				margin-right: 0px;
+			}
+		}
 
-        .premium-left {
-            img {
-                width: 100%;
-                margin-right: 0px;
-            }
-        }
+		.premium-right {
+			h2 {
+				text-align: left;
+				margin: 2px;
+				width: 100%;
+			}
 
-        .premium-right{
-            h2 {
-                text-align: left;
-                margin: 2px;
-                width: 100%;
-            }
+			p {
+				width: 488px;
+			}
 
-            .premium-list-item{
-                display: flex;
-                align-items: center;
+			.premium-list-item {
+				display: flex;
+				align-items: center;
 
-                h5 {
-                    margin: 15px;
-                    font-size: 18px;
-                    line-height: 28.8px;
-                    font-weight: 500;
-                }
+				h5 {
+					margin: 15px;
+					font-size: 18px;
+					line-height: 28.8px;
+					font-weight: 500;
+				}
 
-                img {
-                    margin-right: 20px;
-                }
-            }
-        }
-    }
-    
+				img {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (min-width: $desktop) {
+	.premium-main {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		align-items: center;
+		justify-content: center;
+		margin-top: 100px;
+		gap: 200px;
 
-    .premium-main {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-top: 100px;
-        gap: 150px;
+		.premium-left {
+			img {
+				width: 100%;
+				margin-right: 120px;
+			}
+		}
 
-        .premium-left {
-            img {
-                width: 100%;
-                margin-right: 120px;
-            }
-        }
+		.premium-right {
+			h2 {
+				text-align: left;
+				margin: 2px;
+				width: 100%;
+			}
 
-        .premium-right{
-            h2 {
-                text-align: left;
-                margin: 2px;
-                width: 100%;
-            }
+			.premium-list-item {
+				display: flex;
+				align-items: center;
 
-            .premium-list-item{
-                display: flex;
-                align-items: center;
+				h5 {
+					margin: 15px;
+					font-size: 18px;
+					line-height: 28.8px;
+					font-weight: 500;
+				}
 
-                h5 {
-                    margin: 15px;
-                    font-size: 18px;
-                    line-height: 28.8px;
-                    font-weight: 500;
-                }
-
-                img {
-                    margin-right: 20px;
-                }
-            }
-        }
-    }
-    
+				img {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
 }

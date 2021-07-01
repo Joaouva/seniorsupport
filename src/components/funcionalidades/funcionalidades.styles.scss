@@ -9,7 +9,7 @@ $desktop: 1060px;
 	align-items: center;
 	justify-content: center;
 	.funcionalidades-left {
-		background-image: url("../../assets/background-section.png");
+		background-image: url("../../assets/funcionalidades/background-section.png");
 		background-repeat: no-repeat;
 		display: flex;
 		justify-content: center;
@@ -31,7 +31,7 @@ $desktop: 1060px;
 		justify-content: center;
 		padding: 0px;
 		.funcionalidades-left {
-			background-image: url("../../assets/background-section.png");
+			background-image: url("../../assets/mobile/funcionalidades/background.png");
             background-size: 320px;
 			background-repeat: no-repeat;
 			display: flex;
@@ -59,7 +59,7 @@ $desktop: 1060px;
 		align-items: center;
 		justify-content: center;
 		.funcionalidades-left {
-			background-image: url("../../assets/background-section.png");
+			background-image: url("../../assets/funcionalidades/background-section.png");
 			background-size: cover;
 			background-repeat: no-repeat;
 			display: flex;
@@ -84,20 +84,20 @@ $desktop: 1060px;
 
 @media screen and (min-width: $desktop) {
 	.funcionalidades-main {
-		gap: 150px;
 		margin-top: 40px;
 		display: flex;
+		flex-wrap: wrap;
         flex-direction: row;
 		align-items: center;
 		justify-content: center;
 		.funcionalidades-left {
-			background-image: url("../../assets/background-section.png");
+			background-image: url("../../assets/funcionalidades/background-section.png");
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: auto;
 			display: flex;
 			justify-content: center;
-			width: 518px;
-			margin: 10px;
+			margin-up: 10px;
+			margin-right: 160px;
 		}
 
 		.funcionalidades-right {
