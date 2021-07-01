@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/seniorsupport/static/css/main.59330952.chunk.css",
-    "main.js": "/seniorsupport/static/js/main.e8ff1eb2.chunk.js",
-    "main.js.map": "/seniorsupport/static/js/main.e8ff1eb2.chunk.js.map",
+    "main.css": "/seniorsupport/static/css/main.e0113d4e.chunk.css",
+    "main.js": "/seniorsupport/static/js/main.93720145.chunk.js",
+    "main.js.map": "/seniorsupport/static/js/main.93720145.chunk.js.map",
     "runtime-main.js": "/seniorsupport/static/js/runtime-main.7a4a7147.js",
     "runtime-main.js.map": "/seniorsupport/static/js/runtime-main.7a4a7147.js.map",
     "static/css/2.04447ae7.chunk.css": "/seniorsupport/static/css/2.04447ae7.chunk.css",
@@ -12,11 +12,11 @@
     "static/js/3.81a0e549.chunk.js.map": "/seniorsupport/static/js/3.81a0e549.chunk.js.map",
     "index.html": "/seniorsupport/index.html",
     "static/css/2.04447ae7.chunk.css.map": "/seniorsupport/static/css/2.04447ae7.chunk.css.map",
-    "static/css/main.59330952.chunk.css.map": "/seniorsupport/static/css/main.59330952.chunk.css.map",
+    "static/css/main.e0113d4e.chunk.css.map": "/seniorsupport/static/css/main.e0113d4e.chunk.css.map",
     "static/js/2.a1001a8f.chunk.js.LICENSE.txt": "/seniorsupport/static/js/2.a1001a8f.chunk.js.LICENSE.txt",
     "static/media/app-store.1fac4b9e.svg": "/seniorsupport/static/media/app-store.1fac4b9e.svg",
     "static/media/appointment.41bbc7ed.svg": "/seniorsupport/static/media/appointment.41bbc7ed.svg",
-    "static/media/funcionalidades.styles.scss": "/seniorsupport/static/media/background-section.f2f03339.png",
+    "static/media/funcionalidades.styles.scss": "/seniorsupport/static/media/background.7e5449ee.png",
     "static/media/header.styles.scss": "/seniorsupport/static/media/background_header.7e0c3393.svg",
     "static/media/footer.styles.scss": "/seniorsupport/static/media/background_footer.9be6b5dc.svg",
     "static/media/bgi.ec4397d9.svg": "/seniorsupport/static/media/bgi.ec4397d9.svg",
@@ -25,9 +25,10 @@
     "static/media/device 2.763c584e.png": "/seniorsupport/static/media/device 2.763c584e.png",
     "static/media/eit.87a597cf.svg": "/seniorsupport/static/media/eit.87a597cf.svg",
     "static/media/google-play.ae8473dd.svg": "/seniorsupport/static/media/google-play.ae8473dd.svg",
-    "static/media/iPhone.31773c18.svg": "/seniorsupport/static/media/iPhone.31773c18.svg",
+    "static/media/iPhone 3.c6f52b66.svg": "/seniorsupport/static/media/iPhone 3.c6f52b66.svg",
     "static/media/learn.21e1d6b3.svg": "/seniorsupport/static/media/learn.21e1d6b3.svg",
     "static/media/logo.773d1a1f.svg": "/seniorsupport/static/media/logo.773d1a1f.svg",
+    "static/media/mockup-principal.5f422948.png": "/seniorsupport/static/media/mockup-principal.5f422948.png",
     "static/media/organize.7c4c5d0d.svg": "/seniorsupport/static/media/organize.7c4c5d0d.svg",
     "static/media/pci.e51747eb.svg": "/seniorsupport/static/media/pci.e51747eb.svg",
     "static/media/premium.7e9c9bf8.svg": "/seniorsupport/static/media/premium.7e9c9bf8.svg",
@@ -39,7 +40,7 @@
     "static/js/runtime-main.7a4a7147.js",
     "static/css/2.04447ae7.chunk.css",
     "static/js/2.a1001a8f.chunk.js",
-    "static/css/main.59330952.chunk.css",
-    "static/js/main.e8ff1eb2.chunk.js"
+    "static/css/main.e0113d4e.chunk.css",
+    "static/js/main.93720145.chunk.js"
   ]
 }
