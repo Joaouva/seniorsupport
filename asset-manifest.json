@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/seniorsupport/static/css/main.e9f6ab20.chunk.css",
-    "main.js": "/seniorsupport/static/js/main.7687110f.chunk.js",
-    "main.js.map": "/seniorsupport/static/js/main.7687110f.chunk.js.map",
-    "runtime-main.js": "/seniorsupport/static/js/runtime-main.1a2a5caa.js",
-    "runtime-main.js.map": "/seniorsupport/static/js/runtime-main.1a2a5caa.js.map",
-    "static/css/2.893b8065.chunk.css": "/seniorsupport/static/css/2.893b8065.chunk.css",
-    "static/js/2.effdb5d1.chunk.js": "/seniorsupport/static/js/2.effdb5d1.chunk.js",
-    "static/js/2.effdb5d1.chunk.js.map": "/seniorsupport/static/js/2.effdb5d1.chunk.js.map",
-    "static/js/3.bbcc9931.chunk.js": "/seniorsupport/static/js/3.bbcc9931.chunk.js",
-    "static/js/3.bbcc9931.chunk.js.map": "/seniorsupport/static/js/3.bbcc9931.chunk.js.map",
+    "main.css": "/seniorsupport/static/css/main.7847f981.chunk.css",
+    "main.js": "/seniorsupport/static/js/main.4bdabbc6.chunk.js",
+    "main.js.map": "/seniorsupport/static/js/main.4bdabbc6.chunk.js.map",
+    "runtime-main.js": "/seniorsupport/static/js/runtime-main.5c7f1b51.js",
+    "runtime-main.js.map": "/seniorsupport/static/js/runtime-main.5c7f1b51.js.map",
+    "static/css/2.8a803f39.chunk.css": "/seniorsupport/static/css/2.8a803f39.chunk.css",
+    "static/js/2.8c8c54db.chunk.js": "/seniorsupport/static/js/2.8c8c54db.chunk.js",
+    "static/js/2.8c8c54db.chunk.js.map": "/seniorsupport/static/js/2.8c8c54db.chunk.js.map",
+    "static/js/3.73228489.chunk.js": "/seniorsupport/static/js/3.73228489.chunk.js",
+    "static/js/3.73228489.chunk.js.map": "/seniorsupport/static/js/3.73228489.chunk.js.map",
     "index.html": "/seniorsupport/index.html",
-    "static/css/2.893b8065.chunk.css.map": "/seniorsupport/static/css/2.893b8065.chunk.css.map",
-    "static/css/main.e9f6ab20.chunk.css.map": "/seniorsupport/static/css/main.e9f6ab20.chunk.css.map",
-    "static/js/2.effdb5d1.chunk.js.LICENSE.txt": "/seniorsupport/static/js/2.effdb5d1.chunk.js.LICENSE.txt",
+    "static/css/2.8a803f39.chunk.css.map": "/seniorsupport/static/css/2.8a803f39.chunk.css.map",
+    "static/css/main.7847f981.chunk.css.map": "/seniorsupport/static/css/main.7847f981.chunk.css.map",
+    "static/js/2.8c8c54db.chunk.js.LICENSE.txt": "/seniorsupport/static/js/2.8c8c54db.chunk.js.LICENSE.txt",
     "static/media/app-store.1fac4b9e.svg": "/seniorsupport/static/media/app-store.1fac4b9e.svg",
     "static/media/appointment.41bbc7ed.svg": "/seniorsupport/static/media/appointment.41bbc7ed.svg",
     "static/media/funcionalidades.styles.scss": "/seniorsupport/static/media/background.7e5449ee.png",
@@ -37,10 +37,10 @@
     "static/media/universidade de aveiro.0b329401.svg": "/seniorsupport/static/media/universidade de aveiro.0b329401.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a2a5caa.js",
-    "static/css/2.893b8065.chunk.css",
-    "static/js/2.effdb5d1.chunk.js",
-    "static/css/main.e9f6ab20.chunk.css",
-    "static/js/main.7687110f.chunk.js"
+    "static/js/runtime-main.5c7f1b51.js",
+    "static/css/2.8a803f39.chunk.css",
+    "static/js/2.8c8c54db.chunk.js",
+    "static/css/main.7847f981.chunk.css",
+    "static/js/main.4bdabbc6.chunk.js"
   ]
 }
