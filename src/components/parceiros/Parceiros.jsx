@@ -15,31 +15,41 @@ function Parceiros() {
 				<h2>E não estamos sozinhos nesta...</h2>
 			</div>
 			<div className="parceiros-logos">
-				<img
-					className="logos"
-					src={eit}
-					alt="Smartphone with the APP"
-				/>
-				<img
-					className="logos"
-					src={UniversidadeAveiro}
-					alt="Smartphone with the APP"
-				/>
-				<img
-					className="logos"
-					src={bgi}
-					alt="Smartphone with the APP"
-				/>
-				<img
-					className="logos"
-					src={sedy}
-					alt="Smartphone with the APP"
-				/>
-				<img
-					className="logos"
-					src={Pci}
-					alt="Smartphone with the APP"
-				/>
+				<div>
+					<img
+						className="logos"
+						src={eit}
+						alt="Smartphone with the APP"
+					/>
+				</div>
+				<div>
+					<img
+						className="logos"
+						src={UniversidadeAveiro}
+						alt="Smartphone with the APP"
+					/>
+				</div>
+				<div>
+					<img
+						className="logos"
+						src={bgi}
+						alt="Smartphone with the APP"
+					/>
+				</div>
+				<div>
+					<img
+						className="logos"
+						src={sedy}
+						alt="Smartphone with the APP"
+					/>
+				</div>
+				<div>
+					<img
+						className="logos"
+						src={Pci}
+						alt="Smartphone with the APP"
+					/>
+				</div>
 			</div>
 		</div>
     );

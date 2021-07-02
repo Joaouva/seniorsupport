@@ -16,7 +16,7 @@ $desktop: 1060px;
 
 		.feedbacks-bottom {
             .swiper-container {
-                width: 336px !important;
+                width: 300px !important;
 				height: 300px !important;
                 
                 .swiper-slide {
@@ -87,7 +87,7 @@ $desktop: 1060px;
 
 		.feedbacks-bottom {
             .swiper-container {
-                max-width: 688px !important;
+                width: 700px !important;
 				height: 300px !important;
                 
                 .swiper-slide {
@@ -160,13 +160,17 @@ $desktop: 1060px;
 		}
 
 		.feedbacks-bottom {
+			
             .swiper-container {
-            	max-width: 1216px !important;
+				width: 100% !important;
+            	max-width: 50vw !important;
 				margin: 0 auto !important;
-				height: 100%;
+				height: 400px !important;
                 
                 .swiper-slide {
                     width: 384px !important;
+					padding: 20px !important;
+					
                 }
             }
 

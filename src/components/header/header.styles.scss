@@ -93,7 +93,6 @@ $desktop: 1060px;
 
 	.main {
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
 		align-content: center;
 		margin: auto;
@@ -131,6 +130,7 @@ $desktop: 1060px;
 	}
 
 	.main {
+		flex-wrap: wrap;
 		align-items: center;
 		min-height: 786px;
 		flex-direction: column;
@@ -147,6 +147,7 @@ $desktop: 1060px;
 				margin-top: 40px;
 				margin-bottom: 0px;
 				margin-right: 0px;
+				width: 304px;
 			}
 
 			p {
@@ -200,6 +201,7 @@ $desktop: 1060px;
 		}
 
 		.main {
+			flex-wrap: wrap;
 			align-items: center;
 			flex-direction: column;
 
@@ -247,8 +249,9 @@ $desktop: 1060px;
 		background-image: url("../../assets/header/background_header.svg");
 		background-repeat: no-repeat;
 		background-size: auto;
-		background-position: center;
-		height: 852px;
+		background-position: 50% 0%;
+		height: auto;
+		
 
 		.nav-main {
 			width: 100%;
@@ -269,6 +272,8 @@ $desktop: 1060px;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: flex-start;
+			flex-wrap: nowrap;
+			padding: 30px;
 
 			.left-section {
 				flex-direction: column;

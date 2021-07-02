@@ -1,5 +1,8 @@
 import React from "react";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
+
 import "./footer.styles.scss";
 
 import AppStore from "../../assets/Logos/app-store.svg";
@@ -7,6 +10,21 @@ import GooglePlay from "../../assets/Logos/google-play.svg";
 import Logo from "../../assets/Logos/logo.svg";
 
 function Footer() {
+
+	const formSubmit = () => {
+			toast.info("Obrigado pelo seu registo! Entraremos em contacto brevemente", {
+				position: "bottom-center",
+				autoClose: 5000,
+				hideProgressBar: true,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: false,
+				className: "submit-feedback success",
+				toastId: "notifyToast",
+			});
+	}
+
+
 	return (
 		<div className="footer-main">
 			<div className="footer-top">
@@ -17,9 +35,19 @@ function Footer() {
 					contato com você por ele, vamos lá?
 				</p>
 				<form className="form">
-					<input type="email" placeholder="Your email address" className="form-input" />
-					<input type="submit" value="Ser premium" className="form-button"/>
+					<input
+						type="email"
+						placeholder="Your email address"
+						className="form-input"
+					/>
+					<input
+						type="submit"
+						value="Ser premium"
+						className="form-button"
+						onClick={formSubmit}
+					/>
 				</form>
+				<ToastContainer/>
 			</div>
 			<div className="footer-bottom">
 				<h2>
